@@ -2,6 +2,11 @@
 
 module.exports = function(environment) {
   var ENV = {
+    DS: {
+     host: 'http://localhost:3000',
+     namespace: 'api',
+   },
+
     modulePrefix: 'ember-mythos-practice',
     environment: environment,
     rootURL: '/',
