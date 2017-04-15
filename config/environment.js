@@ -3,7 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     DS: {
-     host: 'http://localhost:3000',
+     host: 'http://localhost:3000/users',
      namespace: 'api',
    },
 

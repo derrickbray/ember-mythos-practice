@@ -1,4 +1,4 @@
 {{outlet}}
-{{#each model as |user|}}
-<div class="user">{{ user.userName.id }}</div>
+{{#each model as |users|}}
+<div class="user">{{ users.attributes.userName }}</div>
 {{/each}}
